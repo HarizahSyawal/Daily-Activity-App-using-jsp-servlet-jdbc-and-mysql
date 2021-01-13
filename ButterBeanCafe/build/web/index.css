@@ -1,0 +1,28 @@
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.opening-time p span
+     {
+        font-size: 15px;
+        text-align: center;
+     }
+     
+.row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+.row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+.opening-time{
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
